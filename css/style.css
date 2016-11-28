@@ -1,0 +1,540 @@
+* {
+	box-sizing:border-box;
+	margin:0;
+}
+
+html body {
+	height:100%;
+	background-image: url("../images/noisy_net_@2X.png");
+	background-repeat:repeat;
+}
+
+.wrapper {
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	margin:0 auto -4em;
+}
+
+body{
+	width:100:
+	/*background-image: url("../images/noisy_net_@2X.png");
+	background-repeat:repeat;*/
+	box-sizing:border-box;
+	overflow:auto;
+	min-height:1200px;
+	background-color:#fff;
+	font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+	background-color:#fff;
+	margin:0 auto;
+	left:0px;
+	width:100%;
+	box-sizing:border-box;
+	border:1px solid #ccc;
+	position:absolute;
+	overflow:auto;
+	height:84px;
+	margin-right:15px;
+}
+
+#name {
+	background-color:#4aaaa5;
+	color:#fff;
+	width:250px;
+	display:inline-block;
+	position:absolute;
+	left:200px;
+	height:100%;
+	text-align:center;
+	padding-top:25px;
+}
+
+#title {
+	color:#4aaaa5;
+	font-family:"Georgia", Times, "Times New Roman", serif;
+	font-weight:bold;
+}
+
+#nav {
+	display:inline-block;
+}
+
+nav {
+	display:inline-block;
+	position:absolute;
+	top:30px;
+	right:250px;
+	color:#ccc;
+	font-size:16px;
+}
+
+nav a {
+	color:#ccc;
+	text-decoration:none;
+	margin: 0 10px 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    display: inline-block;
+    color: #777;
+    text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #4aaaa5;
+	color:#fff;
+	text-align:center;
+	margin:0 auto;
+}
+
+#aboutheading {
+	display:inline-block;
+	width:650px;
+	position:relative;
+	border:solid 1px #ccc;
+	background-color:#fff;
+	padding-top:20px;
+}
+
+#aboutheading h2 {
+	margin-right:20px;
+}
+
+.profileimage {
+	height:150px;
+	width:150px;
+	float:left;
+	padding-right:10px;
+	margin: 10px 15px 15px 15px;
+}
+
+#rightsidebar {
+	width:270px;
+	border:solid 1px #ccc;
+	display:inline-block;
+	position:relative;
+	background-color:#fff;
+	padding:10px;
+	padding-right:0;
+	vertical-align:top;
+	margin-left:10px;	
+}
+
+#socialicons {
+	margin-bottom:10px;
+	margin-top:15px;
+}
+
+.gitbtn {
+	width:50px;
+	height:50px;
+	display:inline-block;
+	margin-left:10px;
+
+}
+
+.linkedinbtn {
+	width:50px;
+	height:50px;
+	display:inline-block;
+	margin-left:20px;
+}
+
+.stackbtn {
+	width:50px;
+	height:50px;
+	display:inline-block;
+	margin-left:25px;
+}
+
+#rightsidebar h3 {
+	text-align:center;
+	margin-right:30px;
+	margin-left:15px;
+}
+
+aside {
+	display:inline-block;
+}
+
+section{
+	display:inline-block;
+	position:absolute;
+	left:200px;
+	top:120px;
+	width:960px;
+	overflow:hidden;
+}
+
+h1 {
+	font-family:"Georgia", Times, "Times New Roman", serif;
+	font-weight:bold;
+	font-size:32px;
+}
+
+h2 h3 {
+	color:#4aaaa5;
+	font-family:"Georgia", Times, "Times New Roman", serif;
+	font-weight:bold;
+}
+
+h2 {
+	margin-left:15px;
+	border:solid 2px #ccc;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	padding-bottom:10px;
+	margin-right:15px;
+	margin-bottom:10px;
+	font-size:24px;
+}
+
+h3 {
+	font-size:18.72px;
+	margin-left:12px;
+	border:solid 2px #ccc;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+}
+
+p {
+	margin:20px;
+	color:#777;
+}
+
+figure {
+	margin-left:30px;
+	margin-bottom:10px;
+}
+
+a {
+    display: inline-block;
+    color: #777;
+    text-align: center;
+    text-decoration: none;
+}
+
+.portfoliomain {
+	margin:0 auto;
+}
+
+#portfolioheading {
+	margin-left:10px;
+	margin-right:25px;
+	color:#4aaaa5;
+	font-family:"Georgia", Times, "Times New Roman", serif;
+	font-weight:bold;
+}
+
+h4 p a {
+	font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#portfolio {
+	display:inline-block;
+	width:650px;
+	position:relative;
+	border:solid 1px #ccc;
+	background-color:#fff;
+	padding-top:20px;
+}
+
+.portfoliobox {
+	width:275px;
+	height:275px;
+	margin:0 auto;
+	display:inline-block;
+	position:relative;
+	margin-right:10px;
+	margin-bottom:15px;
+	background-color:black;
+}
+
+.portfoliobox:hover {
+	box-shadow:5px 5px 5px #888;
+}
+
+.portfoliobanner {
+	width:100%;
+	background-color:#4aaaa5;
+	color:#fff;
+	padding:10px;
+	margin:0 auto;
+	position:absolute;
+	bottom:15px;
+	text-align:center;
+	left:0px;
+	display:inline-block;
+}
+
+.portfolioimage {
+	width:250px;
+	height:250px;
+	margin-bottom:15px;
+}
+
+img {
+	max-height:100%;
+	max-width:100%;
+}
+
+#contactform {
+	padding:0 20px 20px 20px;
+	margin:0 auto;
+}
+
+label {
+	margin-bottom:10px;
+	color:#888;
+	margin-top:5px;
+}
+
+input[type=text], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 25%;
+    color: white;
+    font-size:20px;
+    background-color:#4aaaa5;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	box-shadow:5px 5px 5px #888;
+}
+
+#contact {
+	display:inline-block;
+	width:650px;
+	position:relative;
+	border:solid 1px #ccc;
+	background-color:#fff;
+	padding-top:20px;
+}
+
+#contactheading h2 {
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.right {
+	position:relative;
+	display:inline-block;
+float:right;
+
+}
+
+footer {
+	width:100%;
+	position:fixed;
+	background-color:#888;
+	color:#ccc;
+	text-align:center;
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:12px;
+	border-top:3px #4aaaa5 solid;
+	box-sizing:border-box;
+	bottom:0px;
+	left:0px;
+	clear:both;
+}
+
+
+/*INSERTING MEDIA QUERIES*/
+
+@media only screen and (max-width:980px) {
+	#contactpage {
+		min-height:900px;
+	}
+	body {
+		min-height:1450px;
+	}
+	header {
+		position:static;
+	}
+	#name {
+		position:relative;
+		bottom:0;
+		margin:auto;
+	}
+	nav {
+		position:relative;
+		left:300px;
+		top:-6px;
+	}
+	#portfolio {
+		width:340px;
+	}
+	#contact {
+		width:340px;
+	}
+	#rightsidebar {
+		width:250px;
+	}
+	#aboutheading {
+		width:340px;
+	}
+	aside {
+		width:250px;
+	}
+	.wrapper {
+		width:auto;
+	}
+	footer {
+		width:100%;
+	}
+	.clearfooter {
+		width:auto;
+	}
+}
+
+@media only screen and (max-width:768px) {
+
+	body {
+		min-height:1000px;
+	}
+	.portfoliobox {
+		width:40%;
+	}
+	.portfolio {
+		min-height:1200px;
+	}
+	#portfolioheading h2 {
+		margin-right:5px;
+	}
+	#name {
+		left:20px;
+	}
+	nav {
+		left:200px;
+	}
+	#portfolio {
+		width:88%;
+	}
+	section {
+		width:90%;
+		left:20px;
+	}
+	#contact {
+		width:88%;
+	}
+	#rightsidebar {
+		margin-left:0;
+		margin-top:20px;
+		width:88%;	
+	}
+	#rightsidebar h3 {
+		left:-10px;
+		text-align:left;
+		margin-left:0px;
+		margin-right:20px;
+	}
+	#socialicons {
+		margin-left:0px;
+	}
+	#aboutheading {
+		width:88%;
+	}
+}
+
+@media only screen and (max-width:640px) {
+
+	body {
+		min-height:1500px;
+	}
+	header {
+		position:static;
+		overflow:initial;
+		height:150px;
+		width:100%;
+	}
+	.portfoliobox {
+		width:80%;
+		height:300px;
+		margin-bottom:10px;
+	}
+	#name {
+		left:0px;
+		width:100%;
+		padding:20px;
+		height:85px;
+	}
+	nav {
+		position:relative;
+		display:inline-block;
+		overflow:auto;
+		width:100%;
+		padding-top:30px;
+		left:0;
+	}
+	#aboutnav {
+		position:relative;
+		display:inline-block;
+		text-align:center;
+		width:30%;
+	}
+	ul {
+		height:70px;
+	}
+	/*li {
+		top:25px;
+		position:absolute;
+		left:65px;
+	}*/
+	
+	#portfolio {
+		width:94%;
+	}
+	section {
+		width:98%;
+	}
+	#contact {
+		width:95%;
+	}
+	#rightsidebar {
+		width:100%;	
+	}
+	#rightsidebar h3 {
+		left:-10px;
+		text-align:left;
+		margin-left:0px;
+		margin-right:20px;
+	}
+	/*
+	#socialicons {
+		margin-left:0px;
+	}*/
+	#aboutheading {
+		width:95%;
+	}
+	footer {
+		margin-top:25px;
+		width:98%;
+	}
+}
+
